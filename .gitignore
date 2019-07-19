@@ -1,3 +1,5 @@
 cpp-httplib
 sqlite_orm
 static/node_modules
+a.out
+static/index.js
