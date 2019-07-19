@@ -17,3 +17,7 @@ RUN git clone https://github.com/S-H-GAMELINKS/sol.git ~/.sol && \
 RUN echo 'export PATH="$HOME/.sol/bin:$PATH"' >> ~/.bashrc && exec bash
 
 RUN chmod 777 ~/.sol/bin/sol 
+
+RUN sol build
+
+CMD ["./a.out"]
