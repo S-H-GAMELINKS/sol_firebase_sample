@@ -1,7 +1,17 @@
 <script>
-    let word = "Hello World!"
+    import { Router, Link, Route } from "svelte-routing";
+    import { Index, About, Contact } from "./routes";
+
+    export let ur = "";
 </script>
 
-<div data-controller="hello">
-    <h1>{ word }</h1>
-</div>
+<Router url="{url}">
+    <Link to="/">Home</Link>
+    <Link to="/about">About</Link>
+    <Link to="/contact">Contact</Link>
+    <div>
+        <Route path="/" component="{Index}" />
+        <Route path="/about" component="{About}" />
+        <Route path="/contact" component="{Contact}" />
+    </div>
+</Router>
