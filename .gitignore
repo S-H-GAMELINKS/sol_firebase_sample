@@ -3,3 +3,4 @@ sqlite_orm
 static/node_modules
 a.out
 static/index.js
+static/.env
