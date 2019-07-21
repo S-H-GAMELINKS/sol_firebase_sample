@@ -21,7 +21,7 @@ int main() {
 
     httplib::Server svr;
 
-    std::array<std::string> routes = {"/", "/about", "/contact"};
+    std::array<std::string, 3> routes = {"/", "/about", "/contact"};
 
     const std::string html = load_static("static/index.html"); 
 
