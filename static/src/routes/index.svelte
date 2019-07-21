@@ -1,7 +1,5 @@
 <script>
-    let word = "Hello World!"
+    let word = "Index";
 </script>
 
-<div data-controller="hello">
-    <h1>{ word }</h1>
-</div>
+<h1>{ word }</h1>
