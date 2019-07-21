@@ -2,7 +2,7 @@
     import { Router, Link, Route } from "svelte-routing";
     import { Index, About, Contact } from "./routes";
 
-    export let ur = "";
+    export let url = "";
 </script>
 
 <Router url="{url}">
