@@ -9,7 +9,7 @@
 
 <Router url="{url}">
     <Header />
-    <div>
+    <div class="container">
         <Route path="/" component="{Index}" />
         <Route path="/about" component="{About}" />
         <Route path="/contact" component="{Contact}" />
